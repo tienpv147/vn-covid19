@@ -1,0 +1,138 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+.tieude {
+  margin-top: 60px;
+  user-select: none; }
+
+.txtcenter {
+  text-align: center; }
+
+section {
+  margin-top: 40px; }
+  section div h1 {
+    text-align: center;
+    color: #e20000; }
+  section div table {
+    width: 80%;
+    margin: 20px auto 100px auto;
+    border-collapse: separate;
+    border-spacing: 0; }
+    section div table thead {
+      user-select: none;
+      text-align: center; }
+      section div table thead tr th {
+        position: sticky;
+        top: 0;
+        padding: 8px;
+        border: 1px solid #dddddd;
+        background-color: #ffffff; }
+    section div table tbody tr:nth-child(even) {
+      background-color: #f8f8f8; }
+    section div table tbody tr:hover {
+      background-color: rgba(0, 255, 13, 0.356); }
+    section div table tbody tr td {
+      border: 1px solid #dddddd;
+      padding: 8px;
+      text-align: center; }
+      section div table tbody tr td:nth-child(1) {
+        width: 10px; }
+      section div table tbody tr td:nth-child(2) {
+        text-align: left;
+        text-transform: capitalize; }
+
+#tableCaBenhTheoNgay tr td:nth-child(2) {
+  text-align: center; }
+
+.infoapi {
+  margin-bottom: 100px; }
+  .infoapi ul {
+    text-align: center;
+    padding: 2px; }
+    .infoapi ul li {
+      list-style: none;
+      padding: 4px 0px; }
+      .infoapi ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: 600; }
+
+.text-center {
+  text-align: center; }
+
+.chart {
+  width: 60vw;
+  height: auto;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-bottom: 100px; }
+  .chart-sm {
+    width: 60vw;
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 100px; }
+
+footer {
+  position: relative;
+  bottom: 0;
+  padding: 10px 0px 0px 0px;
+  height: 1px;
+  width: 100%;
+  background-color: white; }
+
+/*# sourceMappingURL=style.css.map */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #333;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+nav ul li {
+  flex: 1;
+  text-align: center;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+/* 
+.navbar-transparent {
+  background-color: transparent;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  font-weight: bold;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml;charset=utf-8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba(255, 255, 255, 0.8)" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"%3E%3C/path%3E%3C/svg%3E');
+} */
